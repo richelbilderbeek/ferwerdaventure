@@ -4,8 +4,8 @@
 from __future__ import print_function
 import sys
 import os 
-os.add_dll_directory(r'C:\Program Files\VideoLAN\VLC')
-import vlc
+# os.add_dll_directory(r'C:\Program Files\VideoLAN\VLC')
+# import vlc
 import time
 
 import time
@@ -27,8 +27,8 @@ print("What's your name?")
 player_name = input("Name: ").lower()
 
 if  player_name == "richel":
-    sound_file = vlc.MediaPlayer(r'file:///C:/Users/kirst/Music/go_shawty.mp3') 
-    sound_file.play()
+    # sound_file = vlc.MediaPlayer(r'file:///C:/Users/kirst/Music/go_shawty.mp3') 
+    # sound_file.play()
     time.sleep(5)
 
     print("Go shawty, it's your birthday. We're gonna party like it's ya birthday...Choose your preferred brand of beer", player_name)
